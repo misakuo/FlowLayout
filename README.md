@@ -9,7 +9,7 @@ FlowLayout是一个基于ViewGroup编写的控件，可以将一组View以从左
 ###使用
 - 在`build.gradle`中添加  
 ```
-compile 'com.moxun:flowlayoutlib:1.1.0'
+compile 'com.moxun:flowlayoutlib:1.0.0'
 ```
 - 在布局文件中引入    
 ```
