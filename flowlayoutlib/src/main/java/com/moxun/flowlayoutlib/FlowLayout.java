@@ -253,10 +253,6 @@ public class FlowLayout extends ViewGroup implements FlowItemAdapter.FlowLayoutD
         removeViewAt(indexOfChild(view));
     }
 
-    public void setOnItemClickListener(OnClickListener listener) {
-        onClickListener = listener;
-    }
-
     @Override
     public void onItemInserted(int position) {
         View item = adapter.getView(getContext(), this, position);
